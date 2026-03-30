@@ -5,6 +5,11 @@
       <company>Tne Best inc.</company>
       <url>http://best.seller.ru</url>
       <platform>uCoz</platform>
+      <categories>
+          <category id="1">Бытовая техника</category>
+          <category id="10" parentId="1">Мелкая техника для кухни</category>
+          <category id="101" parentId="10">Сэндвичницы и приборы для выпечки</category>
+      </categories>
       <delivery-options>
           <option cost="200" days="1"/>
       </delivery-options>
@@ -23,12 +28,7 @@
               <currencyId>RUR</currencyId>
               <categoryId>101</categoryId>
               <picture>http://best.seller.ru/img/model_12345.jpg</picture>
-              <description>
-                  <![CDATA[
-                      <p>Это прибор, который придётся по вкусу всем любителям десертов и сладостей</p>
-                      <p>С его помощью вы сможете делать вкусное домашнее мороженое из натуральных ингредиентов.</p>
-                  ]]>
-              </description>
+              <description>test description</description>
               <sales_notes>Необходима предоплата.</sales_notes>
               <manufacturer_warranty>true</manufacturer_warranty>
               <barcode>4601546021298</barcode>
