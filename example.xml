@@ -9,6 +9,7 @@
           <category id="1">Бытовая техника</category>
           <category id="10" parentId="1">Мелкая техника для кухни</category>
           <category id="101" parentId="10">Сэндвичницы и приборы для выпечки</category>
+          <category id="102" parentId="10">Кофемашины</category>
       </categories>
       <delivery-options>
           <option cost="200" days="1"/>
@@ -53,7 +54,7 @@
               <oldprice>29990</oldprice>
               <enable_auto_discounts>true</enable_auto_discounts>
               <currencyId>RUR</currencyId>
-              <categoryId>215</categoryId>
+              <categoryId>102</categoryId>
               <picture>http://best.seller.ru/img/model_67890.jpg</picture>
               <description>
                   <![CDATA[
