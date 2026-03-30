@@ -28,7 +28,12 @@
               <currencyId>RUR</currencyId>
               <categoryId>101</categoryId>
               <picture>http://best.seller.ru/img/model_12345.jpg</picture>
-              <description>test description</description>
+              <description>
+                  <![CDATA[
+                      <p>Это прибор, который придётся по вкусу всем любителям десертов и сладостей</p>
+                      <p>С его помощью вы сможете делать вкусное домашнее мороженое из натуральных ингредиентов.</p>
+                  ]]>
+              </description>
               <sales_notes>Необходима предоплата.</sales_notes>
               <manufacturer_warranty>true</manufacturer_warranty>
               <barcode>4601546021298</barcode>
