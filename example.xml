@@ -5,11 +5,6 @@
       <company>Tne Best inc.</company>
       <url>http://best.seller.ru</url>
       <platform>uCoz</platform>
-      <categories>
-          <category id="1">Бытовая техника</category>
-          <category id="10" parentId="1">Мелкая техника для кухни</category>
-          <category id="101" parentId="10">Сэндвичницы и приборы для выпечки</category>
-      </categories>
       <delivery-options>
           <option cost="200" days="1"/>
       </delivery-options>
@@ -26,7 +21,6 @@
               <oldprice>9990</oldprice>
               <enable_auto_discounts>true</enable_auto_discounts>
               <currencyId>RUR</currencyId>
-              <categoryId>101</categoryId>
               <picture>http://best.seller.ru/img/model_12345.jpg</picture>
               <description>
                   <![CDATA[
