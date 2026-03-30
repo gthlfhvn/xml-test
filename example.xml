@@ -44,6 +44,33 @@
                   <quality>excellent</quality>
               </condition>
           </offer>
+          <offer id="9013">
+              <name>Кофемашина Deluxe 5678</name>
+              <vendor>Deluxe</vendor>
+              <vendorCode>B7654321A</vendorCode>
+              <url>http://best.seller.ru/product_page.asp?pid=67890</url>
+              <price>24990</price>
+              <oldprice>29990</oldprice>
+              <enable_auto_discounts>true</enable_auto_discounts>
+              <currencyId>RUR</currencyId>
+              <categoryId>215</categoryId>
+              <picture>http://best.seller.ru/img/model_67890.jpg</picture>
+              <description>
+                  <![CDATA[
+                      <p>Кофемашина Deluxe 5678 позволит вам наслаждаться ароматным кофе в домашних условиях.</p>
+                      <p>С её помощью вы сможете готовить различные виды кофе, включая эспрессо, капучино и латте.</p>
+                  ]]>
+              </description>
+              <sales_notes>Доставка в течение 3 дней.</sales_notes>
+              <manufacturer_warranty>true</manufacturer_warranty>
+              <barcode>4601546021299</barcode>
+              <param name="Цвет">чёрный</param>
+              <weight>8.5</weight>
+              <dimensions>30.2/25.4/40.8</dimensions>
+              <condition type="new">
+                  <quality>perfect</quality>
+              </condition>
+          </offer>
       </offers>
   </shop>
 </yml_catalog>
