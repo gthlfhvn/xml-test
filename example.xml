@@ -1,77 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <yml_catalog date="2020-11-22T14:37:38+03:00">
   <shop>
-      <name>BestSeller</name>
-      <company>Tne Best inc.</company>
-      <url>http://best.seller.ru</url>
-      <platform>uCoz</platform>
-      <categories>
-          <category id="1">Бытовая техника</category>
-          <category id="10" parentId="1">Мелкая техника для кухни</category>
-          <category id="101" parentId="10">Сэндвичницы и приборы для выпечки</category>
-          <category id="102" parentId="10">Кофемашины</category>
-      </categories>
-      <delivery-options>
-          <option cost="200" days="1"/>
-      </delivery-options>
-      <pickup-options>
-          <option cost="200" days="1"/>
-      </pickup-options>
-      <offers>
-          <offer id="9012">
-              <name>Мороженица Brand 3811</name>
-              <vendor>Brand</vendor>
-              <vendorCode>A1234567B</vendorCode>
-              <url>http://best.seller.ru/product_page.asp?pid=12345</url>
-              <price>8990</price>
-              <oldprice>9990</oldprice>
-              <enable_auto_discounts>true</enable_auto_discounts>
-              <currencyId>RUR</currencyId>
-              <categoryId>101</categoryId>
-              <picture>http://best.seller.ru/img/model_12345.jpg</picture>
-              <description>
-                  <![CDATA[
-                      <p>Это прибор, который придётся по вкусу всем любителям десертов и сладостей</p>
-                      <p>С его помощью вы сможете делать вкусное домашнее мороженое из натуральных ингредиентов.</p>
-                  ]]>
-              </description>
-              <sales_notes>Необходима предоплата.</sales_notes>
-              <manufacturer_warranty>true</manufacturer_warranty>
-              <barcode>4601546021298</barcode>
-              <param name="Цвет">белый</param>
-              <weight>3.6</weight>
-              <dimensions>20.1/20.551/22.5</dimensions>
-              <condition type="preowned">
-                  <quality>excellent</quality>
-              </condition>
-          </offer>
-          <offer id="9013">
-              <name>Кофемашина Deluxe 5678</name>
-              <vendor>Deluxe</vendor>
-              <vendorCode>B7654321A</vendorCode>
-              <url>http://best.seller.ru/product_page.asp?pid=67890</url>
-              <price>24990</price>
-              <oldprice>29990</oldprice>
-              <enable_auto_discounts>true</enable_auto_discounts>
-              <currencyId>RUR</currencyId>
-              <categoryId>102</categoryId>
-              <picture>http://best.seller.ru/img/model_67890.jpg</picture>
-              <description>
-                  <![CDATA[
-                      <p>Кофемашина Deluxe 5678 позволит вам наслаждаться ароматным кофе в домашних условиях.</p>
-                      <p>С её помощью вы сможете готовить различные виды кофе, включая эспрессо, капучино и латте.</p>
-                  ]]>
-              </description>
-              <sales_notes>Доставка в течение 3 дней.</sales_notes>
-              <manufacturer_warranty>true</manufacturer_warranty>
-              <barcode>4601546021299</barcode>
-              <param name="Цвет">чёрный</param>
-              <weight>8.5</weight>
-              <dimensions>30.2/25.4/40.8</dimensions>
-              <condition type="new">
-                  <quality>perfect</quality>
-              </condition>
-          </offer>
-      </offers>
+    <name>BestSeller</name>
+    <company>Tne Best inc.</company>
+    <url>http://best.seller.ru</url>
+    <platform>uCoz</platform>
+    <categories>
+      <category id="1">Бытовая техника</category>
+      <category id="10" parentId="1">Мелкая техника для кухни</category>
+      <category id="101" parentId="10">Сэндвичницы и приборы для выпечки</category>
+      <category id="102" parentId="10">Кофемашины</category>
+    </categories>
+    <delivery-options>
+      <option cost="200" days="1"/>
+    </delivery-options>
+    <pickup-options>
+      <option cost="200" days="1"/>
+    </pickup-options>
+    <offers>
+      <offer id="9013">
+        <name>Кофемашина Deluxe 5678</name>
+        <vendor>Deluxe</vendor>
+        <vendorCode>B7654321A</vendorCode>
+        <url>http://best.seller.ru/product_page.asp?pid=67890</url>
+        <price>24990</price>
+        <oldprice>29990</oldprice>
+        <enable_auto_discounts>true</enable_auto_discounts>
+        <currencyId>RUR</currencyId>
+        <categoryId>102</categoryId>
+        <picture>http://best.seller.ru/img/model_67890.jpg</picture>
+        <description>
+          <![CDATA[
+            <p>Кофемашина Deluxe 5678 позволит вам наслаждаться ароматным кофе в домашних условиях.</p>
+            <p>С её помощью вы сможете готовить различные виды кофе, включая эспрессо, капучино и латте.</p>
+          ]]>
+        </description>
+        <sales_notes>Доставка в течение 3 дней.</sales_notes>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <barcode>4601546021299</barcode>
+        <param name="Цвет">чёрный</param>
+        <weight>8.5</weight>
+        <dimensions>30.2/25.4/40.8</dimensions>
+        <condition type="new">
+          <quality>perfect</quality>
+        </condition>
+      </offer>
+      <offer id="9014">
+        <name>Блендер Multiblend 123</name>
+        <vendor>Multiblend</vendor>
+        <vendorCode>C12345678</vendorCode>
+        <url>http://best.seller.ru/product_page.asp?pid=12346</url>
+        <price>3990</price>
+        <oldprice>4990</oldprice>
+        <enable_auto_discounts>true</enable_auto_discounts>
+        <currencyId>RUR</currencyId>
+        <categoryId>10</categoryId>
+        <picture>http://best.seller.ru/img/model_12346.jpg</picture>
+        <description>
+          <![CDATA[
+            <p>Блендер Multiblend 123 поможет вам быстро и легко приготовить смузи, коктейли и другие напитки.</p>
+            <p>Имеет несколько скоростей и режимов работы.</p>
+          ]]>
+        </description>
+        <sales_notes>Бесплатная доставка при заказе от 5000 рублей.</sales_notes>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <barcode>4601546021300</barcode>
+        <param name="Цвет">серебристый</param>
+        <weight>1.2</weight>
+        <dimensions>15.0/10.5/20.0</dimensions>
+        <condition type="new">
+          <quality>perfect</quality>
+        </condition>
+      </offer>
+      <offer id="9015">
+        <name>Тостер ToastMaster 789</name>
+        <vendor>ToastMaster</vendor>
+        <vendorCode>D78945612</vendorCode>
+        <url>http://best.seller.ru/product_page.asp?pid=78945</url>
+        <price>1990</price>
+        <oldprice>2490</oldprice>
+        <enable_auto_discounts>true</enable_auto_discounts>
+        <currencyId>RUR</currencyId>
+        <categoryId>101</categoryId>
+        <picture>http://best.seller.ru/img/model_78945.jpg</picture>
+        <description>
+          <![CDATA[
+            <p>Тостер ToastMaster 789 — это компактный и удобный прибор для приготовления тостов.</p>
+            <p>Имеет несколько уровней поджаривания.</p>
+          ]]>
+        </description>
+        <sales_notes>Возврат и обмен в течение 14 дней.</sales_notes>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <barcode>4601546021301</barcode>
+        <param name="Цвет">коричневый</param>
+        <weight>1.0</weight>
+        <dimensions>20.0/15.0/8.5</dimensions>
+        <condition type="new">
+          <quality>perfect</quality>
+        </condition>
+      </offer>
+      <offer id="9016">
+        <name>Соковыжималка FreshJuice 456</name>
+        <vendor>FreshJuice</vendor>
+        <vendorCode>E45678910</vendorCode>
+        <url>http://best.seller.ru/product_page.asp?pid=45678</url>
+        <price>4990</price>
+        <oldprice>5990</oldprice>
+        <enable_auto_discounts>true</enable_auto_discounts>
+        <currencyId>RUR</currencyId>
+        <categoryId>10</categoryId>
+        <picture>http://best.seller.ru/img/model_45678.jpg</picture>
+        <description>
+          <![CDATA[
+            <p>Соковыжималка FreshJuice 456 позволит вам готовить свежие соки из фруктов и овощей.</p>
+            <p>Проста в использовании и уходе.</p>
+          ]]>
+        </description>
+        <sales_notes>Скидка 10% при покупке двух товаров.</sales_notes>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <barcode>4601546021302</barcode>
+        <param name="Цвет">зелёный</param>
+        <weight>2.5</weight>
+        <dimensions>22.0/18.0/12.5</dimensions>
+        <condition type="new">
+          <quality>perfect</quality>
+        </condition>
+      </offer>
+      <offer id="9017">
+        <name>Миксер PowerMix 111</name>
+        <vendor>PowerMix</vendor>
+        <vendorCode>F111222333</vendorCode>
+        <url>http://best.seller.ru/product_page.asp?pid=11122</url>
+        <price>2990</price>
+        <oldprice>3490</oldprice>
+        <enable_auto_discounts>true</enable_auto_discounts>
+        <currencyId>RUR</currencyId>
+        <categoryId>10</categoryId>
+        <picture>http://best.seller.ru/img/model_11122.jpg</picture>
+        <description>
+          <![CDATA[
+            <p>Миксер PowerMix 111 поможет вам взбить крем, тесто и другие продукты.</p>
+            <p>Имеет несколько скоростей и насадок в комплекте.</p>
+          ]]>
+        </description>
+        <sales_notes>Гарантия 1 год.</sales_notes>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <barcode>4601546021303</barcode>
+        <param name="Цвет">белый</param>
+        <weight>1.5</weight>
+        <dimensions>18.0/13.0/9.5</dimensions>
+        <condition type="new">
+          <quality>perfect</quality>
+        </condition>
+      </offer>
+      <offer id="9018">
+        <name>Фритюрница FryMaster 222</name>
+        <vendor>FryMaster</vendor>
+        <vendorCode>G222333444</vendorCode>
+        <url>http://best.seller.ru/product_page.asp?pid=22233</url>
+        <price>5990</price>
+        <oldprice>6990</oldprice>
+        <enable_auto_discounts>true</enable_auto_discounts>
+        <currencyId>RUR</currencyId>
+        <categoryId>101</categoryId>
+        <picture>http://best.seller.ru/img/model_22233.jpg</picture>
+        <description>
+          <![CDATA[
+            <p>Фритюрница FryMaster 222 позволит вам готовить хрустящие блюда во фритюре.</p>
+            <p>Легко чистится и имеет систему контроля температуры.</p>
+          ]]>
+        </description>
+        <sales_notes>Бесплатная консультация по использованию.</sales_notes>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <barcode>4601546021304</barcode>
+        <param name="Цвет">чёрный</param>
+        <weight>4.5</weight>
+        <dimensions>25.0/20.0/15.5</dimensions>
+        <condition type="new">
+          <quality>perfect</quality>
+        </condition>
+      </offer>
+    </offers>
   </shop>
 </yml_catalog>
